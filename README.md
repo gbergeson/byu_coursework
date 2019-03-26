@@ -4,6 +4,6 @@ Relational Database - C++, a relational database with lexical parser that I buil
 
 AES - C, a barebones implementation of the encryption standard described in FIPS-197.
 
-DNSLab - C, a simple command line DNS resolver. Given a domain name and DNS server, it will find its IP addresses and their proxies.
+DNSLab - C, a simple command line DNS resolver. Given a domain name and DNS server, it will find its IP addresses.
 
 ProxyLab - C, a simple proxy server.
