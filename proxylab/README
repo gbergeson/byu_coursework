@@ -1,3 +1,7 @@
+The code that I personally wrote is contained in the file proxy.c. The rest of the code here came as a support for the project. 
+Of the code in proxy.c, I wrote almost all except the clienterror function and some declarations at the beginning.
+
+
 ####################################################################
 # CS:APP Proxy Lab
 #
