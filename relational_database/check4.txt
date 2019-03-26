@@ -1,0 +1,32 @@
+Schemes:
+A(a)
+B(b)
+C(c)
+D(d)
+E(e)
+F(f)
+G(g)
+H(h)
+I(i)
+J(j)
+K(k)
+L(l)
+M(m)
+N(n)
+O(o)
+P(p)
+
+Facts:
+
+Rules:
+A(a) :- D(f),F(a).
+B(b) :- B(f),A(l).
+B(b) :- D(f).
+E(e) :- H(h),B(b).
+E(e) :- E(e).
+C(d) :- A(l),D(f).
+D(e) :- C(a),B(l).
+F(g) :- E(x). 
+
+Queries:
+A(a)?

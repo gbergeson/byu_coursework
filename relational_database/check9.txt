@@ -1,0 +1,36 @@
+Schemes:
+A(a)
+B(b)
+C(c)
+D(d)
+E(e)
+F(f)
+G(g)
+H(h)
+I(i)
+J(j)
+K(k)
+L(l)
+M(m)
+N(n)
+O(o)
+P(p)
+
+Facts:
+
+Rules:
+A(a) :- B(a),D(c).
+B(b) :- D(a),E(b).
+C(b) :- A(b),D(d).
+D(d) :- C(c).
+E(e) :- F(e),H(g).
+F(e) :- H(e),I(f).
+G(g) :- E(e),H(h).
+H(h) :- G(g),H(h).
+I(i) :- J(i),L(k).
+J(j) :- J(j),L(l).
+K(k) :- I(k),L(l).
+L(l) :- K(k),J(l).
+
+Queries:
+A(a)?
