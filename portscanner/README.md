@@ -22,5 +22,5 @@ optional arguments:
   -np             Don't check if hosts are live before scanning (VERY SLOW)
   ```
   Destination can be specified in the following formats: 192.168.0.1, 192.168.0.0/24, or google.com/30.
-  Multiple ports can be specified in a hyphen-separated range.
+  Ports can be specified individually, comma separated lists without spaces, or ranges denoted with a hyphen.
   
