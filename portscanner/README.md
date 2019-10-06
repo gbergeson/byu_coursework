@@ -1,5 +1,6 @@
 A basic port scanner. Sends ICMP pings and can perform TCP or UDP scans on a wide range of ports. 
 
+```
 portscanner.py --help
 usage: portscanner.py [-h] [-c protocol] [-d destination] [-p ports]
                       [-t timeout] [-o output] [-f filename] [-v] [-np]
@@ -19,7 +20,7 @@ optional arguments:
   -f filename     A file of IPs to scan, separated by newlines.
   -v              Increase verbosity
   -np             Don't check if hosts are live before scanning (VERY SLOW)
-  
+  ```
   Destination can be specified in the following formats: 192.168.0.1, 192.168.0.0/24, or google.com/30.
   Multiple ports can be specified in a hyphen-separated range.
   
